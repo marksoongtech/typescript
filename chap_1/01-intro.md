@@ -1,2 +1,2 @@
 ﻿# Chapter 1 — Introduction
-Chapter 1 content goes here...
+Chapter 1 code.
