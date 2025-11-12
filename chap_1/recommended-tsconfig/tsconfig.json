@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    // Target and Module System
+    "target": "ESNext",
+    "module": "NodeNext",
+
+    // File Layout
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Type Checking - Base Level
+    "strict": true,
+
+    // Type Checking - Advanced Level
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+
+    // Modern Best Practices
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noUncheckedSideEffectImports": true,
+
+    // Output Files
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Interoperability and Performance
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // For large projects
+    "incremental": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
