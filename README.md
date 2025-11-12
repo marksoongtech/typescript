@@ -1,2 +1,2 @@
 ﻿# TypeScript
-Project: examples and chapters for the book "The manual of TypeScript".
+Project: examples for the book "The manual of TypeScript".
